@@ -3,6 +3,7 @@ package com.example.jabels.activityresultexample.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -55,7 +56,9 @@ public class MainActivity extends Activity {
                     choosenLanguageTxt.setText("Your language is: " + language);
             }
         }else {
-            Toast.makeText(getApplicationContext(), "Error!", Toast.LENGTH_LONG).show();
+            Toast toast = Toast.makeText(getApplicationContext(), "Please eneter your name!", Toast.LENGTH_LONG);
+            toast.setGravity(Gravity.CENTER, 0, 0);
+            toast.show();
         }
     }
 }
