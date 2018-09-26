@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActivityResultExample</string>
+    
+    <string name="greetingsText">Greetings! What is your name?</string>
+    <string name="yourLanguage">Your language is: UNKNOWN</string>
+    <string name="presentationButton">Introduce</string>
+    <string name="chooseTheLanguageButton">Language</string>
+</resources>
